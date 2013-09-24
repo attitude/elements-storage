@@ -1,0 +1,19 @@
+{
+    "name": "attitude/Elements/Storage",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/elements"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/elements-column"
+        }
+    ],
+    "require": {
+        "attitude/Elements": "0.1.*",
+        "attitude/Elements/Column": "0.1.*"
+    }
+}
